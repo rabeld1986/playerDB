@@ -18,7 +18,7 @@ from tkinter import messagebox
 
 import random
 #connecting to our database
-db = mysql.connector.connect(host = "localhost",user = "root", passwd = "rabel1986", database = "nba")
+db = mysql.connector.connect(host = "localhost",user = "root", passwd = "", database = "nba")
 cursor = db.cursor()
 
 ##db_functions##
